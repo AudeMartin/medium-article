@@ -1,0 +1,92 @@
+body{
+  background-color: #F7F7F7;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgb(2, 101, 108);
+  font-size: 20px;
+  line-height: 30px;
+}
+h1{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:black;
+  background-color: white;
+  font-size: 28px;
+  line-height: 40px;
+}
+h2, h3{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgb(94, 9, 99) ;
+  font-size: 22px;
+  line-height: 36px;
+  }
+a{
+  color: midnightblue;
+  text-decoration: underline dotted;
+}
+a:hover{
+  color:rgb(2, 101, 108)
+}
+p{
+  text-align: justify;
+}
+div{
+  text-align: center;
+  margin: 50px auto;
+}
+.container{
+  width: 75%;
+  margin: 50px auto
+}
+.card{
+  border-radius: 3px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 25px;
+}
+.banner{
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+img{
+  border-radius: 10px;
+}
+li{
+  list-style: none;
+  font-size:30px;
+}
+ul{
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+  text-align: center;
+}
+.btn-grey{
+
+}
